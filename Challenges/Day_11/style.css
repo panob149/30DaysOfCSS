@@ -1,5 +1,5 @@
 body {
-    background: #3bc9ceaf;
+    background: #000000af;
 }
 
 .center {
@@ -19,7 +19,7 @@ body {
     height: 120px;
     color: white;
     border-radius: 50%;
-    background-color: #d37fb4;
+    background-color: #5900ff;
     line-height: 120px;
     animation: animate 3s linear infinite;
     justify-content: center;
@@ -30,20 +30,20 @@ body {
 
 @keyframes animate {
     0% {
-        box-shadow: 0 0 0 0 #d351a3d3, 
-        0 0 0 0 #cc3394d3;
+        box-shadow: 0 0 0 0 #6e48c7d3, 
+        0 0 0 0 #663dfad3;
     }
     40% {
-        box-shadow: 0 0 0 20px #b95a96cc, 
-        0 0 0 0 #8d336aaf;
+        box-shadow: 0 0 0 20px #8f65f3cc, 
+        0 0 0 0 #7f72f3af;
     }
     80% {
-        box-shadow: 0 0 0 30px #792359cc,
-        0 0 0 30px #702e589f;
+        box-shadow: 0 0 0 30px #f3039b,
+        0 0 0 30px #fd02a1;
     }
     100% {
-        box-shadow: 0 0 0 0 40px #7e1758cc, 
-        0 0 0 40px  #aa398186;
+        box-shadow: 0 0 0 0 40px #ff00a2fd, 
+        0 0 0 40px  #fc05a1e7;
     }
 }
 
